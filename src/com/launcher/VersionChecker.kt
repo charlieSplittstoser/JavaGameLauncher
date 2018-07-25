@@ -9,7 +9,7 @@ import java.util.Scanner
 
 /**
  * VersionChecker Class
- * @author Charlie <https:></https:>//www.rune-server.ee/members/charlie/>
+ * @author Charlie <https://github.com/charlieSplittstoser>
  * Controls the version checking and compares webserver client version
  * with the client version stored in the cache
  */

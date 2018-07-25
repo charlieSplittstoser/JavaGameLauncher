@@ -12,6 +12,11 @@ import java.awt.event.MouseEvent
 import javax.swing.JButton
 import javax.swing.border.Border
 
+/**
+ * LauncherBtn Class
+ * @author Charlie <https://github.com/charlieSplittstoser>
+ * Custom buttons for the homepage
+ */
 class LauncherBtn(text: String) : JButton(text) {
 
     init {

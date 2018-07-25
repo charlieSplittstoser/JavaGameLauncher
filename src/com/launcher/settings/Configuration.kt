@@ -4,7 +4,7 @@ import java.io.File
 
 /**
  * Configuration Class
- * @author Charlie <https:></https:>//www.rune-server.ee/members/charlie/>
+ * @author Charlie <https://github.com/charlieSplittstoser>
  * Stores global configurations and settings for the launcher
  */
 

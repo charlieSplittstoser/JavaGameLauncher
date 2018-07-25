@@ -10,7 +10,7 @@ import com.launcher.gui.Launcher
 
 /**
  * ClientHandler
- * @author Charlie <https:></https:>//www.rune-server.ee/members/charlie/>
+ * @author Charlie <https://github.com/charlieSplittstoser>
  */
 
 class ClientHandler(private val launcherInterface: Launcher) {

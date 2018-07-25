@@ -7,7 +7,7 @@ import java.util.*
 /**
  * Class taken from:
  * https://www.java-tips.org/java-se-tips-100019/15-javax-swing/1391-how-to-create-a-download-manager-in-java.html
- * Slightly modified by Charlie <https:></https:>//www.rune-server.ee/members/charlie/> to download to the cache directory
+ * Slightly modified by Charlie <https://github.com/charlieSplittstoser> to download to the cache directory
  */
 
 // This class downloads a file from a URL.

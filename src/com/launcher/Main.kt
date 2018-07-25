@@ -7,7 +7,7 @@ import com.launcher.gui.Updater
 
 /**
  * Main Class
- * @author Charlie <https:></https:>//www.rune-server.ee/members/charlie/>
+ * @author Charlie <https://github.com/charlieSplittstoser>
  * Main class which instantiates the launcher panel
  */
 

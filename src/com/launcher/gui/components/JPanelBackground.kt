@@ -8,7 +8,7 @@ import javax.swing.JPanel
 
 /**
  * JPanelBackground Class
- * @author Charlie <https:></https:>//www.rune-server.ee/members/charlie/>
+ * @author Charlie <https://github.com/charlieSplittstoser>
  * Introduces a background image to a standard JPanel
  */
 

@@ -20,7 +20,7 @@ import com.launcher.gui.components.LauncherBtn
 
 /**
  * Launcher Class
- * @author Charlie <https:></https:>//www.rune-server.ee/members/charlie/>
+ * @author Charlie <https://github.com/charlieSplittstoser>
  * Handles all GUI related content for the main launcher panel
  */
 
