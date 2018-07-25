@@ -17,8 +17,7 @@ public class Configuration {
 	
 	public static final String CLIENT_JAR_NAME = "aeros.jar"; //jar file physical name
 	
-	
-	
+
 	/** LOCAL LINKS **/
 	
 	public static final String CACHE_DIR = System.getProperty("user.home") + File.separator + CACHE_NAME + File.separator;
