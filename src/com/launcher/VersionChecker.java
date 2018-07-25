@@ -46,13 +46,13 @@ public class VersionChecker {
 	public boolean hasLatestVersion() {
 		
 		try {
-			
+
 			File clientVersion = new File(Configuration.VERSION_FILE_LINK);
 			@SuppressWarnings("resource")
 			Scanner versionCheck = new Scanner(clientVersion);
 			Double version = Double.parseDouble(versionCheck.nextLine());
 			return (version == this.latestVersion);
-		
+
 		} catch (Exception e) {
 				File path = new File(Configuration.CLIENT_FOLDER);
 				if (!path.exists()) {

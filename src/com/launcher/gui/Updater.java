@@ -6,9 +6,7 @@ import java.awt.Toolkit;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JProgressBar;
-import javax.swing.ProgressMonitor;
 import javax.swing.border.EmptyBorder;
-import com.launcher.Configuration;
 
 /**
  * ClientDownloader Class
@@ -18,7 +16,6 @@ import com.launcher.Configuration;
 
 @SuppressWarnings("serial")
 public class Updater extends JFrame {
-
 
 	private JProgressBar downloadProgress;
 	private String message;
@@ -60,5 +57,4 @@ public class Updater extends JFrame {
 		add(downloadProgress, BorderLayout.CENTER);
 		setVisible(true);
 	}
-	
 }
