@@ -39,12 +39,11 @@ class VersionChecker {
     fun hasLatestVersion(): Boolean {
 
         try {
-
             val clientVersion = File(Configuration.VERSION_FILE_LINK)
             val versionCheck = Scanner(clientVersion)
             val version = java.lang.Double.parseDouble(versionCheck.nextLine())
             return version == this.latestVersion
-
+            
         } catch (e: Exception) {
             val path = File(Configuration.CLIENT_FOLDER)
             if (!path.exists()) {
@@ -53,7 +52,6 @@ class VersionChecker {
             println("Missing version file. Updating...")
             return false
         }
-
     }
 
     fun updateVersion() {
@@ -64,7 +62,7 @@ class VersionChecker {
         } catch (e: Exception) {
             e.printStackTrace()
         }
-
     }
+    
 }
 
