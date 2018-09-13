@@ -38,7 +38,6 @@ class Launcher : JFrame(Configuration.CACHE_NAME + " Launcher") {
         isVisible = true
     }
 
-
     /* Handles the launcher GUI */
     private fun setupLauncher() {
 
@@ -78,14 +77,13 @@ class Launcher : JFrame(Configuration.CACHE_NAME + " Launcher") {
 
     }
 
-
     /* Handles button clicks */
     private inner class ActionHandler(private val btnName: String) : ActionListener {
 
         override fun actionPerformed(e: ActionEvent) {
 
             when (this.btnName) {
-
+                
                 "Play now" -> {
                     val clientHandler = ClientHandler(this@Launcher)
                     clientHandler.launchGame()
@@ -118,6 +116,5 @@ class Launcher : JFrame(Configuration.CACHE_NAME + " Launcher") {
             }
         }
     }
-
 
 }
