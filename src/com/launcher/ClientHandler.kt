@@ -44,7 +44,6 @@ class ClientHandler(private val launcherInterface: Launcher) {
         } catch (e: Exception) {
             e.printStackTrace()
         }
-
     }
 
     fun setPlayButton(enabled: Boolean) {
